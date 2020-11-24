@@ -1,19 +1,13 @@
 import React from "react";
-import Main from "./components/Main";
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
-
+import Directory from "./components/directory.js";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Wrapper>
-        <Header />
-        <Main />
-      </Wrapper>
+      <Directory />
     </div>
   );
-}
+};
 
 export default App;
